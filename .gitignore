@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.venv
+venv
+
+# Streamlit secrets (CRITICAL - API keys)
+.streamlit/
+secrets.toml
+.env
+.env.local
+
+# Model files (large and sensitive)
+models/*.pkl
+models/*.keras
+models/*.h5
+models/*.joblib
+models/*.json
+!models/README.md
+
+# Data files (large)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.json
+data/live/*.csv
+!data/raw/README.md
+!data/processed/README.md
+!data/live/README.md
+
+# Reports
+reports/backtests/*.csv
+reports/backtests/*.json
+reports/*.png
+reports/*.html
+
+# Logs
+*.log
+streamlit_*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.bak
+
+# Git
+!.gitignore
